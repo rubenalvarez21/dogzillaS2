@@ -1,0 +1,37 @@
+[1.978s] Invoking command in '/home/yahboom/Desktop/dogzillaS2/ros_ws/src/webcam': PYTHONPATH=/home/yahboom/Desktop/dogzillaS2/ros_ws/build/webcam/prefix_override:/home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webcam build --build-base /home/yahboom/Desktop/dogzillaS2/ros_ws/build/webcam/build install --record /home/yahboom/Desktop/dogzillaS2/ros_ws/build/webcam/install.log --single-version-externally-managed install_data
+[2.670s] running egg_info
+[2.671s] creating ../../build/webcam/webcam.egg-info
+[2.671s] writing ../../build/webcam/webcam.egg-info/PKG-INFO
+[2.672s] writing dependency_links to ../../build/webcam/webcam.egg-info/dependency_links.txt
+[2.673s] writing entry points to ../../build/webcam/webcam.egg-info/entry_points.txt
+[2.673s] writing requirements to ../../build/webcam/webcam.egg-info/requires.txt
+[2.673s] writing top-level names to ../../build/webcam/webcam.egg-info/top_level.txt
+[2.674s] writing manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[2.676s] reading manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[2.677s] writing manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[2.678s] running build
+[2.678s] running build_py
+[2.679s] creating /home/yahboom/Desktop/dogzillaS2/ros_ws/build/webcam/build
+[2.679s] creating /home/yahboom/Desktop/dogzillaS2/ros_ws/build/webcam/build/lib
+[2.680s] creating /home/yahboom/Desktop/dogzillaS2/ros_ws/build/webcam/build/lib/webcam
+[2.680s] copying webcam/__init__.py -> /home/yahboom/Desktop/dogzillaS2/ros_ws/build/webcam/build/lib/webcam
+[2.681s] copying webcam/pub_demo.py -> /home/yahboom/Desktop/dogzillaS2/ros_ws/build/webcam/build/lib/webcam
+[2.682s] running install
+[2.682s] running install_lib
+[2.682s] creating /home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam/lib/python3.10/site-packages/webcam
+[2.683s] copying /home/yahboom/Desktop/dogzillaS2/ros_ws/build/webcam/build/lib/webcam/__init__.py -> /home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam/lib/python3.10/site-packages/webcam
+[2.683s] copying /home/yahboom/Desktop/dogzillaS2/ros_ws/build/webcam/build/lib/webcam/pub_demo.py -> /home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam/lib/python3.10/site-packages/webcam
+[2.685s] byte-compiling /home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam/lib/python3.10/site-packages/webcam/__init__.py to __init__.cpython-310.pyc
+[2.685s] byte-compiling /home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam/lib/python3.10/site-packages/webcam/pub_demo.py to pub_demo.cpython-310.pyc
+[2.686s] running install_data
+[2.687s] creating /home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam/share/ament_index
+[2.688s] creating /home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam/share/ament_index/resource_index
+[2.688s] creating /home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam/share/ament_index/resource_index/packages
+[2.688s] copying resource/webcam -> /home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam/share/ament_index/resource_index/packages
+[2.689s] copying package.xml -> /home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam/share/webcam
+[2.689s] running install_egg_info
+[2.691s] Copying ../../build/webcam/webcam.egg-info to /home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam/lib/python3.10/site-packages/webcam-0.0.0-py3.10.egg-info
+[2.692s] running install_scripts
+[2.748s] Installing pub_demo script to /home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam/lib/webcam
+[2.749s] writing list of installed files to '/home/yahboom/Desktop/dogzillaS2/ros_ws/build/webcam/install.log'
+[2.804s] Invoked command in '/home/yahboom/Desktop/dogzillaS2/ros_ws/src/webcam' returned '0': PYTHONPATH=/home/yahboom/Desktop/dogzillaS2/ros_ws/build/webcam/prefix_override:/home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webcam build --build-base /home/yahboom/Desktop/dogzillaS2/ros_ws/build/webcam/build install --record /home/yahboom/Desktop/dogzillaS2/ros_ws/build/webcam/install.log --single-version-externally-managed install_data

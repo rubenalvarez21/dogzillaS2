@@ -1,0 +1,4 @@
+[console_scripts]
+pub_demo = webcam.pub_demo:main
+sub_demo = webcam.sub_demo:main
+
