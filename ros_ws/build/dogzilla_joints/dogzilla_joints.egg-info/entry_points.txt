@@ -1,0 +1,3 @@
+[console_scripts]
+joints_sub = dogzilla_joints.joints_sub:main
+
