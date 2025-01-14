@@ -9,6 +9,7 @@ setup.py
 ../../build/dogzilla_joints/dogzilla_joints.egg-info/top_level.txt
 ../../build/dogzilla_joints/dogzilla_joints.egg-info/zip-safe
 dogzilla_joints/__init__.py
+dogzilla_joints/joints_pub.py
 dogzilla_joints/joints_sub.py
 resource/dogzilla_joints
 test/test_copyright.py

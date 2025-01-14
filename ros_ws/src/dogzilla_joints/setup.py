@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-	'joints_sub = dogzilla_joints.joints_sub:main'
+	'joints_sub = dogzilla_joints.joints_sub:main',
+	'joints_pub = dogzilla_joints.joints_pub:main'
         ],
     },
 )

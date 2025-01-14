@@ -1,0 +1,8 @@
+setup.py
+dog_joint_interfaces/__init__.py
+dog_joint_interfaces.egg-info/PKG-INFO
+dog_joint_interfaces.egg-info/SOURCES.txt
+dog_joint_interfaces.egg-info/dependency_links.txt
+dog_joint_interfaces.egg-info/top_level.txt
+dog_joint_interfaces/srv/__init__.py
+dog_joint_interfaces/srv/_set_joint_position.py

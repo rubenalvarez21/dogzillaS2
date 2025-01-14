@@ -1,0 +1,4 @@
+srv/SetJointPosition.idl
+srv/SetJointPosition.srv
+srv/SetJointPosition_Request.msg
+srv/SetJointPosition_Response.msg

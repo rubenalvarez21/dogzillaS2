@@ -1,0 +1,25 @@
+[1.158s] Invoking command in '/home/yahboom/Desktop/dogzillaS2/ros_ws/src/dogzilla_joints': PYTHONPATH=/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dogzilla_joints/prefix_override:/home/yahboom/Desktop/dogzillaS2/ros_ws/install/dogzilla_joints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dogzilla_joints build --build-base /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dogzilla_joints/build install --record /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dogzilla_joints/install.log --single-version-externally-managed install_data
+[1.455s] running egg_info
+[1.455s] writing ../../build/dogzilla_joints/dogzilla_joints.egg-info/PKG-INFO
+[1.456s] writing dependency_links to ../../build/dogzilla_joints/dogzilla_joints.egg-info/dependency_links.txt
+[1.456s] writing entry points to ../../build/dogzilla_joints/dogzilla_joints.egg-info/entry_points.txt
+[1.456s] writing requirements to ../../build/dogzilla_joints/dogzilla_joints.egg-info/requires.txt
+[1.456s] writing top-level names to ../../build/dogzilla_joints/dogzilla_joints.egg-info/top_level.txt
+[1.459s] reading manifest file '../../build/dogzilla_joints/dogzilla_joints.egg-info/SOURCES.txt'
+[1.459s] writing manifest file '../../build/dogzilla_joints/dogzilla_joints.egg-info/SOURCES.txt'
+[1.460s] running build
+[1.460s] running build_py
+[1.460s] copying dogzilla_joints/joints_pub.py -> /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dogzilla_joints/build/lib/dogzilla_joints
+[1.460s] running install
+[1.461s] running install_lib
+[1.463s] copying /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dogzilla_joints/build/lib/dogzilla_joints/joints_pub.py -> /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dogzilla_joints/lib/python3.10/site-packages/dogzilla_joints
+[1.464s] byte-compiling /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dogzilla_joints/lib/python3.10/site-packages/dogzilla_joints/joints_pub.py to joints_pub.cpython-310.pyc
+[1.465s] running install_data
+[1.465s] running install_egg_info
+[1.467s] removing '/home/yahboom/Desktop/dogzillaS2/ros_ws/install/dogzilla_joints/lib/python3.10/site-packages/dogzilla_joints-0.0.0-py3.10.egg-info' (and everything under it)
+[1.467s] Copying ../../build/dogzilla_joints/dogzilla_joints.egg-info to /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dogzilla_joints/lib/python3.10/site-packages/dogzilla_joints-0.0.0-py3.10.egg-info
+[1.469s] running install_scripts
+[1.492s] Installing joints_pub script to /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dogzilla_joints/lib/dogzilla_joints
+[1.492s] Installing joints_sub script to /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dogzilla_joints/lib/dogzilla_joints
+[1.493s] writing list of installed files to '/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dogzilla_joints/install.log'
+[1.530s] Invoked command in '/home/yahboom/Desktop/dogzillaS2/ros_ws/src/dogzilla_joints' returned '0': PYTHONPATH=/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dogzilla_joints/prefix_override:/home/yahboom/Desktop/dogzillaS2/ros_ws/install/dogzilla_joints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dogzilla_joints build --build-base /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dogzilla_joints/build install --record /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dogzilla_joints/install.log --single-version-externally-managed install_data
