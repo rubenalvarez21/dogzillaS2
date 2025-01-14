@@ -9,8 +9,8 @@ class JointState_Sub(Node):
 		self.sub = self.create_subscription(JointState, "/joint_states", self.sub_callback, 1)
 
 	def sub_callback(self, msg):
-		for position in msg.position:
-			self.get_logger().info(f'{position:.5f}')
+		for name, position in zip(msg.name, msg.position):
+			self.get_logger().info(f'Joint: {name}, Position: {position:.5f}')
 
 def main():
 	rclpy.init()
