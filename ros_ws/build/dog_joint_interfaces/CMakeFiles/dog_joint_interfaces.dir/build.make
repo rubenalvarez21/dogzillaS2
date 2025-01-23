@@ -69,6 +69,10 @@ include CMakeFiles/dog_joint_interfaces.dir/progress.make
 CMakeFiles/dog_joint_interfaces: /home/yahboom/Desktop/dogzillaS2/ros_ws/src/dog_joint_interfaces/srv/SetJointPosition.srv
 CMakeFiles/dog_joint_interfaces: rosidl_cmake/srv/SetJointPosition_Request.msg
 CMakeFiles/dog_joint_interfaces: rosidl_cmake/srv/SetJointPosition_Response.msg
+CMakeFiles/dog_joint_interfaces: /home/yahboom/Desktop/dogzillaS2/ros_ws/src/dog_joint_interfaces/srv/SetMotorAngle.srv
+CMakeFiles/dog_joint_interfaces: rosidl_cmake/srv/SetMotorAngle_Request.msg
+CMakeFiles/dog_joint_interfaces: rosidl_cmake/srv/SetMotorAngle_Response.msg
+CMakeFiles/dog_joint_interfaces: /home/yahboom/Desktop/dogzillaS2/ros_ws/src/dog_joint_interfaces/msg/MotorAngle.msg
 CMakeFiles/dog_joint_interfaces: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 CMakeFiles/dog_joint_interfaces: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 CMakeFiles/dog_joint_interfaces: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl

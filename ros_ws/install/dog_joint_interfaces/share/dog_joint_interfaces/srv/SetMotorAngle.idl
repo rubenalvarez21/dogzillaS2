@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dog_joint_interfaces/srv/SetMotorAngle.srv
+// generated code does not contain a copyright notice
+
+
+module dog_joint_interfaces {
+  module srv {
+    struct SetMotorAngle_Request {
+      int32 motor_id;
+
+      double joint_angle;
+    };
+    struct SetMotorAngle_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

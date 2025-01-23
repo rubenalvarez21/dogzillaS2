@@ -70,6 +70,14 @@ CMakeFiles/dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/
 CMakeFiles/dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/srv/detail/set_joint_position__builder.hpp
 CMakeFiles/dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/srv/detail/set_joint_position__struct.hpp
 CMakeFiles/dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/srv/detail/set_joint_position__traits.hpp
+CMakeFiles/dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/srv/set_motor_angle.hpp
+CMakeFiles/dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/srv/detail/set_motor_angle__builder.hpp
+CMakeFiles/dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/srv/detail/set_motor_angle__struct.hpp
+CMakeFiles/dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/srv/detail/set_motor_angle__traits.hpp
+CMakeFiles/dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/msg/motor_angle.hpp
+CMakeFiles/dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/msg/detail/motor_angle__builder.hpp
+CMakeFiles/dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/msg/detail/motor_angle__struct.hpp
+CMakeFiles/dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/msg/detail/motor_angle__traits.hpp
 
 rosidl_generator_cpp/dog_joint_interfaces/srv/set_joint_position.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/dog_joint_interfaces/srv/set_joint_position.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -87,6 +95,8 @@ rosidl_generator_cpp/dog_joint_interfaces/srv/set_joint_position.hpp: /opt/ros/h
 rosidl_generator_cpp/dog_joint_interfaces/srv/set_joint_position.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/dog_joint_interfaces/srv/set_joint_position.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/dog_joint_interfaces/srv/set_joint_position.hpp: rosidl_adapter/dog_joint_interfaces/srv/SetJointPosition.idl
+rosidl_generator_cpp/dog_joint_interfaces/srv/set_joint_position.hpp: rosidl_adapter/dog_joint_interfaces/srv/SetMotorAngle.idl
+rosidl_generator_cpp/dog_joint_interfaces/srv/set_joint_position.hpp: rosidl_adapter/dog_joint_interfaces/msg/MotorAngle.idl
 rosidl_generator_cpp/dog_joint_interfaces/srv/set_joint_position.hpp: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 rosidl_generator_cpp/dog_joint_interfaces/srv/set_joint_position.hpp: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_generator_cpp/dog_joint_interfaces/srv/set_joint_position.hpp: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -188,11 +198,43 @@ rosidl_generator_cpp/dog_joint_interfaces/srv/detail/set_joint_position__struct.
 rosidl_generator_cpp/dog_joint_interfaces/srv/detail/set_joint_position__traits.hpp: rosidl_generator_cpp/dog_joint_interfaces/srv/set_joint_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dog_joint_interfaces/srv/detail/set_joint_position__traits.hpp
 
+rosidl_generator_cpp/dog_joint_interfaces/srv/set_motor_angle.hpp: rosidl_generator_cpp/dog_joint_interfaces/srv/set_joint_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dog_joint_interfaces/srv/set_motor_angle.hpp
+
+rosidl_generator_cpp/dog_joint_interfaces/srv/detail/set_motor_angle__builder.hpp: rosidl_generator_cpp/dog_joint_interfaces/srv/set_joint_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dog_joint_interfaces/srv/detail/set_motor_angle__builder.hpp
+
+rosidl_generator_cpp/dog_joint_interfaces/srv/detail/set_motor_angle__struct.hpp: rosidl_generator_cpp/dog_joint_interfaces/srv/set_joint_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dog_joint_interfaces/srv/detail/set_motor_angle__struct.hpp
+
+rosidl_generator_cpp/dog_joint_interfaces/srv/detail/set_motor_angle__traits.hpp: rosidl_generator_cpp/dog_joint_interfaces/srv/set_joint_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dog_joint_interfaces/srv/detail/set_motor_angle__traits.hpp
+
+rosidl_generator_cpp/dog_joint_interfaces/msg/motor_angle.hpp: rosidl_generator_cpp/dog_joint_interfaces/srv/set_joint_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dog_joint_interfaces/msg/motor_angle.hpp
+
+rosidl_generator_cpp/dog_joint_interfaces/msg/detail/motor_angle__builder.hpp: rosidl_generator_cpp/dog_joint_interfaces/srv/set_joint_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dog_joint_interfaces/msg/detail/motor_angle__builder.hpp
+
+rosidl_generator_cpp/dog_joint_interfaces/msg/detail/motor_angle__struct.hpp: rosidl_generator_cpp/dog_joint_interfaces/srv/set_joint_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dog_joint_interfaces/msg/detail/motor_angle__struct.hpp
+
+rosidl_generator_cpp/dog_joint_interfaces/msg/detail/motor_angle__traits.hpp: rosidl_generator_cpp/dog_joint_interfaces/srv/set_joint_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dog_joint_interfaces/msg/detail/motor_angle__traits.hpp
+
 dog_joint_interfaces__cpp: CMakeFiles/dog_joint_interfaces__cpp
+dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/msg/detail/motor_angle__builder.hpp
+dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/msg/detail/motor_angle__struct.hpp
+dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/msg/detail/motor_angle__traits.hpp
+dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/msg/motor_angle.hpp
 dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/srv/detail/set_joint_position__builder.hpp
 dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/srv/detail/set_joint_position__struct.hpp
 dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/srv/detail/set_joint_position__traits.hpp
+dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/srv/detail/set_motor_angle__builder.hpp
+dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/srv/detail/set_motor_angle__struct.hpp
+dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/srv/detail/set_motor_angle__traits.hpp
 dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/srv/set_joint_position.hpp
+dog_joint_interfaces__cpp: rosidl_generator_cpp/dog_joint_interfaces/srv/set_motor_angle.hpp
 dog_joint_interfaces__cpp: CMakeFiles/dog_joint_interfaces__cpp.dir/build.make
 .PHONY : dog_joint_interfaces__cpp
 

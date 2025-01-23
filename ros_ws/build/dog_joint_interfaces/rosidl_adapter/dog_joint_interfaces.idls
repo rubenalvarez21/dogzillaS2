@@ -1,1 +1,3 @@
 /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_adapter/dog_joint_interfaces:srv/SetJointPosition.idl
+/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_adapter/dog_joint_interfaces:srv/SetMotorAngle.idl
+/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_adapter/dog_joint_interfaces:msg/MotorAngle.idl

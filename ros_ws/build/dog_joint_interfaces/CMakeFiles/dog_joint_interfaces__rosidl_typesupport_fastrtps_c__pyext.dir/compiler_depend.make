@@ -242,17 +242,27 @@ CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl
   /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
-  rosidl_generator_c/dog_joint_interfaces/srv/detail/set_joint_position__type_support.h \
+  rosidl_generator_c/dog_joint_interfaces/msg/detail/motor_angle__type_support.h \
   rosidl_generator_c/dog_joint_interfaces/msg/rosidl_generator_c__visibility_control.h \
+  rosidl_generator_c/dog_joint_interfaces/msg/detail/motor_angle__struct.h \
+  rosidl_generator_c/dog_joint_interfaces/msg/detail/motor_angle__functions.h \
+  rosidl_generator_c/dog_joint_interfaces/srv/detail/set_joint_position__type_support.h \
   rosidl_generator_c/dog_joint_interfaces/srv/detail/set_joint_position__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  rosidl_generator_c/dog_joint_interfaces/srv/detail/set_joint_position__functions.h
+  rosidl_generator_c/dog_joint_interfaces/srv/detail/set_joint_position__functions.h \
+  rosidl_generator_c/dog_joint_interfaces/srv/detail/set_motor_angle__type_support.h \
+  rosidl_generator_c/dog_joint_interfaces/srv/detail/set_motor_angle__struct.h \
+  rosidl_generator_c/dog_joint_interfaces/srv/detail/set_motor_angle__functions.h
 
+
+rosidl_generator_c/dog_joint_interfaces/srv/detail/set_motor_angle__struct.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
 rosidl_generator_c/dog_joint_interfaces/srv/detail/set_joint_position__struct.h:
+
+rosidl_generator_c/dog_joint_interfaces/msg/detail/motor_angle__struct.h:
 
 rosidl_generator_c/dog_joint_interfaces/msg/rosidl_generator_c__visibility_control.h:
 
@@ -264,6 +274,8 @@ rosidl_generator_c/dog_joint_interfaces/msg/rosidl_generator_c__visibility_contr
 
 /usr/include/python3.10/cpython/import.h:
 
+rosidl_generator_c/dog_joint_interfaces/msg/detail/motor_angle__type_support.h:
+
 /usr/include/python3.10/import.h:
 
 rosidl_generator_c/dog_joint_interfaces/srv/detail/set_joint_position__functions.h:
@@ -271,6 +283,8 @@ rosidl_generator_c/dog_joint_interfaces/srv/detail/set_joint_position__functions
 /usr/include/python3.10/intrcheck.h:
 
 /usr/include/python3.10/osmodule.h:
+
+rosidl_generator_c/dog_joint_interfaces/msg/detail/motor_angle__functions.h:
 
 /usr/include/python3.10/tracemalloc.h:
 
@@ -450,6 +464,8 @@ rosidl_generator_c/dog_joint_interfaces/srv/detail/set_joint_position__functions
 
 /usr/include/features-time64.h:
 
+rosidl_generator_c/dog_joint_interfaces/srv/detail/set_motor_angle__type_support.h:
+
 /usr/include/python3.10/setobject.h:
 
 /usr/include/string.h:
@@ -489,6 +505,8 @@ rosidl_generator_c/dog_joint_interfaces/srv/detail/set_joint_position__functions
 /usr/include/python3.10/namespaceobject.h:
 
 /usr/include/x86_64-linux-gnu/asm/posix_types.h:
+
+rosidl_generator_c/dog_joint_interfaces/srv/detail/set_motor_angle__functions.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
 

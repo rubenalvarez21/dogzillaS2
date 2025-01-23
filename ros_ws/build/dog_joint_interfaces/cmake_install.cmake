@@ -360,6 +360,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dog_joint_interfaces/srv" TYPE FILE FILES "/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_adapter/dog_joint_interfaces/srv/SetMotorAngle.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dog_joint_interfaces/msg" TYPE FILE FILES "/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_adapter/dog_joint_interfaces/msg/MotorAngle.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dog_joint_interfaces/srv" TYPE FILE FILES "/home/yahboom/Desktop/dogzillaS2/ros_ws/src/dog_joint_interfaces/srv/SetJointPosition.srv")
 endif()
 
@@ -369,6 +377,22 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dog_joint_interfaces/srv" TYPE FILE FILES "/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_cmake/srv/SetJointPosition_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dog_joint_interfaces/srv" TYPE FILE FILES "/home/yahboom/Desktop/dogzillaS2/ros_ws/src/dog_joint_interfaces/srv/SetMotorAngle.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dog_joint_interfaces/srv" TYPE FILE FILES "/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_cmake/srv/SetMotorAngle_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dog_joint_interfaces/srv" TYPE FILE FILES "/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_cmake/srv/SetMotorAngle_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dog_joint_interfaces/msg" TYPE FILE FILES "/home/yahboom/Desktop/dogzillaS2/ros_ws/src/dog_joint_interfaces/msg/MotorAngle.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

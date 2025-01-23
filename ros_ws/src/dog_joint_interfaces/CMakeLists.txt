@@ -27,6 +27,9 @@ find_package(sensor_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
 "srv/SetJointPosition.srv"
+"srv/SetMotorAngle.srv"
+"msg/MotorAngle.msg"
+
 DEPENDENCIES sensor_msgs )
 
 ament_package()

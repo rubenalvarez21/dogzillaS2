@@ -1,16 +1,15 @@
 import rclpy
 from rclpy.node import Node
-from sensor_msgs.msg import JointState
+from dog_joint_interfaces.msg import MotorAngle
 
 class JointState_Sub(Node):
 	def __init__(self, name):
 		super().__init__(name)
-
-		self.sub = self.create_subscription(JointState, "/joint_states", self.sub_callback, 1)
+		self.sub = self.create_subscription(MotorAngle, "motor_angle_topic", self.sub_callback, 10)
+		self.sub
 
 	def sub_callback(self, msg):
-		for name, position in zip(msg.name, msg.position):
-			self.get_logger().info(f'Joint: {name}, Position: {position:.5f}')
+		self.get_logger().info(f'Motor: {msg.motor_id}, Angle: {msg.joint_angle}')
 
 def main():
 	rclpy.init()

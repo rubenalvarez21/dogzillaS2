@@ -1,0 +1,5 @@
+  File "/home/yahboom/Desktop/dogzillaS2/ros_ws/install/dogzilla_joints/lib/python3.10/site-packages/dogzilla_joints/joints_pub.py", line 28
+    			self.get_logger().warn(response.message
+    			                      ^
+SyntaxError: '(' was never closed
+

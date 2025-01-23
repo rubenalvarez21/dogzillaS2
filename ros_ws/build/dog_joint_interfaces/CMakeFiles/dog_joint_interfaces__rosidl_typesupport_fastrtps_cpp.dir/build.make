@@ -78,6 +78,8 @@ rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set
 rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp: /opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em
 rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp: /opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp: rosidl_adapter/dog_joint_interfaces/srv/SetJointPosition.idl
+rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp: rosidl_adapter/dog_joint_interfaces/srv/SetMotorAngle.idl
+rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp: rosidl_adapter/dog_joint_interfaces/msg/MotorAngle.idl
 rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -173,6 +175,18 @@ rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set
 rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/set_joint_position__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/set_joint_position__rosidl_typesupport_fastrtps_cpp.hpp
 
+rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp: rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp
+
+rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/set_motor_angle__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/set_motor_angle__rosidl_typesupport_fastrtps_cpp.hpp
+
+rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp: rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp
+
+rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/motor_angle__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/motor_angle__rosidl_typesupport_fastrtps_cpp.hpp
+
 CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp.o: CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/flags.make
 CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp
 CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp.o: CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.ts
@@ -187,14 +201,46 @@ CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_type
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp -o CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp.s
 
+CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp.o: CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/flags.make
+CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp
+CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp.o: CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp.o -MF CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp.o.d -o CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp.o -c /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp
+
+CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp > CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp.i
+
+CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp -o CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp.s
+
+CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp.o: CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/flags.make
+CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp
+CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp.o: CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp.o -MF CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp.o.d -o CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp.o -c /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp
+
+CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp > CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp.i
+
+CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp -o CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp.s
+
 # Object files for target dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp
 dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp_OBJECTS = \
-"CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp.o"
+"CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp.o" \
+"CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp.o" \
+"CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp.o"
 
 # External object files for target dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp
 dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp_EXTERNAL_OBJECTS =
 
 libdog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp.o
+libdog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp.o
+libdog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp.o
 libdog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make
 libdog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
 libdog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -206,7 +252,7 @@ libdog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/humble/lib
 libdog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libdog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/humble/lib/librcutils.so
 libdog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libdog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libdog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -217,8 +263,12 @@ CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/clean
 
+CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp
+CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/msg/detail/motor_angle__rosidl_typesupport_fastrtps_cpp.hpp
 CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp
+CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/dds_fastrtps/set_motor_angle__type_support.cpp
 CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/set_joint_position__rosidl_typesupport_fastrtps_cpp.hpp
+CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/dog_joint_interfaces/srv/detail/set_motor_angle__rosidl_typesupport_fastrtps_cpp.hpp
 	cd /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yahboom/Desktop/dogzillaS2/ros_ws/src/dog_joint_interfaces /home/yahboom/Desktop/dogzillaS2/ros_ws/src/dog_joint_interfaces /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend
 

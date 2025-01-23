@@ -1,4 +1,10 @@
+msg/MotorAngle.idl
+msg/MotorAngle.msg
 srv/SetJointPosition.idl
 srv/SetJointPosition.srv
 srv/SetJointPosition_Request.msg
 srv/SetJointPosition_Response.msg
+srv/SetMotorAngle.idl
+srv/SetMotorAngle.srv
+srv/SetMotorAngle_Request.msg
+srv/SetMotorAngle_Response.msg

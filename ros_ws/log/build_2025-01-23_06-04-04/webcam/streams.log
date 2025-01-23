@@ -1,0 +1,22 @@
+[2.274s] Invoking command in '/home/yahboom/Desktop/dogzillaS2/ros_ws/src/webcam': PYTHONPATH=/home/yahboom/Desktop/dogzillaS2/ros_ws/build/webcam/prefix_override:/home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webcam build --build-base /home/yahboom/Desktop/dogzillaS2/ros_ws/build/webcam/build install --record /home/yahboom/Desktop/dogzillaS2/ros_ws/build/webcam/install.log --single-version-externally-managed install_data
+[2.825s] running egg_info
+[2.826s] writing ../../build/webcam/webcam.egg-info/PKG-INFO
+[2.826s] writing dependency_links to ../../build/webcam/webcam.egg-info/dependency_links.txt
+[2.827s] writing entry points to ../../build/webcam/webcam.egg-info/entry_points.txt
+[2.827s] writing requirements to ../../build/webcam/webcam.egg-info/requires.txt
+[2.828s] writing top-level names to ../../build/webcam/webcam.egg-info/top_level.txt
+[2.832s] reading manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[2.833s] writing manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[2.835s] running build
+[2.835s] running build_py
+[2.835s] running install
+[2.835s] running install_lib
+[2.840s] running install_data
+[2.840s] running install_egg_info
+[2.844s] removing '/home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam/lib/python3.10/site-packages/webcam-0.0.0-py3.10.egg-info' (and everything under it)
+[2.845s] Copying ../../build/webcam/webcam.egg-info to /home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam/lib/python3.10/site-packages/webcam-0.0.0-py3.10.egg-info
+[2.847s] running install_scripts
+[2.888s] Installing pub_demo script to /home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam/lib/webcam
+[2.888s] Installing sub_demo script to /home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam/lib/webcam
+[2.890s] writing list of installed files to '/home/yahboom/Desktop/dogzillaS2/ros_ws/build/webcam/install.log'
+[2.952s] Invoked command in '/home/yahboom/Desktop/dogzillaS2/ros_ws/src/webcam' returned '0': PYTHONPATH=/home/yahboom/Desktop/dogzillaS2/ros_ws/build/webcam/prefix_override:/home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webcam build --build-base /home/yahboom/Desktop/dogzillaS2/ros_ws/build/webcam/build install --record /home/yahboom/Desktop/dogzillaS2/ros_ws/build/webcam/install.log --single-version-externally-managed install_data

@@ -1,0 +1,211 @@
+[0.054s] Invoking command in '/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam:/home/yahboom/Desktop/dogzillaS2/ros_ws/install/dogzilla_joints:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces -- -j4 -l4
+[0.534s] [35m[1mConsolidate compiler generated dependencies of target dog_joint_interfaces__rosidl_generator_c[0m
+[0.534s] [  2%] Built target dog_joint_interfaces__cpp
+[0.535s] [ 12%] Built target dog_joint_interfaces__rosidl_generator_c
+[0.535s] [ 12%] Built target ament_cmake_python_copy_dog_joint_interfaces
+[0.535s] [35m[1mConsolidate compiler generated dependencies of target dog_joint_interfaces__rosidl_typesupport_cpp[0m
+[0.535s] [35m[1mConsolidate compiler generated dependencies of target dog_joint_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.535s] [35m[1mConsolidate compiler generated dependencies of target dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.535s] [35m[1mConsolidate compiler generated dependencies of target dog_joint_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.535s] [ 23%] Built target dog_joint_interfaces__rosidl_typesupport_cpp
+[0.535s] [ 34%] Built target dog_joint_interfaces__rosidl_typesupport_introspection_cpp
+[0.535s] [35m[1mConsolidate compiler generated dependencies of target dog_joint_interfaces__rosidl_typesupport_introspection_c[0m
+[0.535s] [ 44%] Built target dog_joint_interfaces__rosidl_typesupport_fastrtps_c
+[0.535s] [ 55%] Built target dog_joint_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.535s] [ 65%] Built target dog_joint_interfaces__rosidl_typesupport_introspection_c
+[0.535s] [35m[1mConsolidate compiler generated dependencies of target dog_joint_interfaces__rosidl_typesupport_c[0m
+[0.535s] [ 76%] Built target dog_joint_interfaces__rosidl_typesupport_c
+[0.535s] [ 76%] Built target dog_joint_interfaces
+[0.535s] [ 78%] Built target dog_joint_interfaces__py
+[0.535s] [35m[1mConsolidate compiler generated dependencies of target dog_joint_interfaces__rosidl_generator_py[0m
+[0.545s] [ 87%] Built target dog_joint_interfaces__rosidl_generator_py
+[0.585s] [35m[1mConsolidate compiler generated dependencies of target dog_joint_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.589s] [35m[1mConsolidate compiler generated dependencies of target dog_joint_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.604s] [35m[1mConsolidate compiler generated dependencies of target dog_joint_interfaces__rosidl_typesupport_c__pyext[0m
+[0.623s] [ 91%] Built target dog_joint_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.644s] [ 95%] Built target dog_joint_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.651s] [100%] Built target dog_joint_interfaces__rosidl_typesupport_c__pyext
+[0.722s] running egg_info
+[0.723s] writing dog_joint_interfaces.egg-info/PKG-INFO
+[0.724s] writing dependency_links to dog_joint_interfaces.egg-info/dependency_links.txt
+[0.724s] writing top-level names to dog_joint_interfaces.egg-info/top_level.txt
+[0.727s] reading manifest file 'dog_joint_interfaces.egg-info/SOURCES.txt'
+[0.728s] writing manifest file 'dog_joint_interfaces.egg-info/SOURCES.txt'
+[0.790s] [100%] Built target ament_cmake_python_build_dog_joint_interfaces_egg
+[0.934s] Invoked command in '/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam:/home/yahboom/Desktop/dogzillaS2/ros_ws/install/dogzilla_joints:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces -- -j4 -l4
+[1.391s] Invoking command in '/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam:/home/yahboom/Desktop/dogzillaS2/ros_ws/install/dogzilla_joints:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces
+[1.411s] -- Install configuration: ""
+[1.411s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/ament_index/resource_index/rosidl_interfaces/dog_joint_interfaces
+[1.411s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces
+[1.411s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv
+[1.412s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail
+[1.412s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_motor_angle__functions.h
+[1.412s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_joint_position__functions.c
+[1.412s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_motor_angle__type_support.h
+[1.412s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_joint_position__type_support.h
+[1.412s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_joint_position__struct.h
+[1.412s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_joint_position__functions.h
+[1.412s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_motor_angle__functions.c
+[1.412s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_motor_angle__struct.h
+[1.413s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/set_motor_angle.h
+[1.413s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/set_joint_position.h
+[1.413s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg
+[1.413s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/detail
+[1.413s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/detail/motor_angle__functions.c
+[1.413s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/detail/motor_angle__struct.h
+[1.413s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/detail/motor_angle__type_support.h
+[1.413s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/detail/motor_angle__functions.h
+[1.413s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/motor_angle.h
+[1.413s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.414s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/environment/library_path.sh
+[1.414s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/environment/library_path.dsv
+[1.414s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/lib/libdog_joint_interfaces__rosidl_generator_c.so
+[1.414s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces
+[1.414s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv
+[1.414s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail
+[1.414s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_motor_angle__rosidl_typesupport_fastrtps_c.h
+[1.414s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_joint_position__rosidl_typesupport_fastrtps_c.h
+[1.414s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg
+[1.414s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/detail
+[1.414s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/detail/motor_angle__rosidl_typesupport_fastrtps_c.h
+[1.415s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.415s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/lib/libdog_joint_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.415s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces
+[1.415s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv
+[1.415s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail
+[1.415s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_joint_position__struct.hpp
+[1.415s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_joint_position__builder.hpp
+[1.415s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_joint_position__traits.hpp
+[1.416s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_motor_angle__traits.hpp
+[1.416s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_motor_angle__builder.hpp
+[1.416s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_motor_angle__struct.hpp
+[1.416s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/set_joint_position.hpp
+[1.416s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/set_motor_angle.hpp
+[1.416s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg
+[1.416s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/detail
+[1.416s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/detail/motor_angle__builder.hpp
+[1.416s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/detail/motor_angle__traits.hpp
+[1.416s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/detail/motor_angle__struct.hpp
+[1.417s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/motor_angle.hpp
+[1.417s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces
+[1.417s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv
+[1.417s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail
+[1.417s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_joint_position__rosidl_typesupport_fastrtps_cpp.hpp
+[1.417s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/dds_fastrtps
+[1.417s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_motor_angle__rosidl_typesupport_fastrtps_cpp.hpp
+[1.417s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg
+[1.417s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/detail
+[1.417s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/detail/motor_angle__rosidl_typesupport_fastrtps_cpp.hpp
+[1.418s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/detail/dds_fastrtps
+[1.418s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.418s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/lib/libdog_joint_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.418s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces
+[1.418s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv
+[1.418s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail
+[1.419s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_joint_position__type_support.c
+[1.419s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_motor_angle__type_support.c
+[1.419s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_motor_angle__rosidl_typesupport_introspection_c.h
+[1.419s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_joint_position__rosidl_typesupport_introspection_c.h
+[1.419s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg
+[1.419s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/detail
+[1.419s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/detail/motor_angle__type_support.c
+[1.419s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/detail/motor_angle__rosidl_typesupport_introspection_c.h
+[1.419s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.419s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/lib/libdog_joint_interfaces__rosidl_typesupport_introspection_c.so
+[1.419s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/lib/libdog_joint_interfaces__rosidl_typesupport_c.so
+[1.420s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces
+[1.420s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv
+[1.420s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail
+[1.420s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_motor_angle__type_support.cpp
+[1.420s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_joint_position__type_support.cpp
+[1.420s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_motor_angle__rosidl_typesupport_introspection_cpp.hpp
+[1.420s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/srv/detail/set_joint_position__rosidl_typesupport_introspection_cpp.hpp
+[1.420s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg
+[1.420s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/detail
+[1.420s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/detail/motor_angle__rosidl_typesupport_introspection_cpp.hpp
+[1.420s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/include/dog_joint_interfaces/dog_joint_interfaces/msg/detail/motor_angle__type_support.cpp
+[1.420s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/lib/libdog_joint_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.421s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/lib/libdog_joint_interfaces__rosidl_typesupport_cpp.so
+[1.421s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/environment/pythonpath.sh
+[1.421s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/environment/pythonpath.dsv
+[1.421s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces-0.0.0-py3.10.egg-info
+[1.421s] -- Installing: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.421s] -- Installing: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.421s] -- Installing: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.421s] -- Installing: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.422s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces
+[1.423s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/libdog_joint_interfaces__rosidl_generator_py.so
+[1.423s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/_dog_joint_interfaces_s.ep.rosidl_typesupport_c.c
+[1.423s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/srv
+[1.423s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/srv/_set_motor_angle_s.c
+[1.423s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/srv/__init__.py
+[1.423s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/srv/_set_motor_angle.py
+[1.423s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/srv/_set_joint_position.py
+[1.424s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/srv/_set_joint_position_s.c
+[1.424s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/dog_joint_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.424s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/__init__.py
+[1.424s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/dog_joint_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.424s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/msg
+[1.424s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/msg/__init__.py
+[1.424s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/msg/_motor_angle.py
+[1.424s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/msg/_motor_angle_s.c
+[1.424s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/_dog_joint_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.424s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/_dog_joint_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.424s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/dog_joint_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.496s] Listing '/home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces'...
+[1.496s] Listing '/home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/msg'...
+[1.496s] Listing '/home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/srv'...
+[1.504s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/dog_joint_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.506s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/dog_joint_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.508s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/local/lib/python3.10/dist-packages/dog_joint_interfaces/dog_joint_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.508s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/lib/libdog_joint_interfaces__rosidl_generator_py.so
+[1.508s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/srv/SetJointPosition.idl
+[1.508s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/srv/SetMotorAngle.idl
+[1.508s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/msg/MotorAngle.idl
+[1.509s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/srv/SetJointPosition.srv
+[1.509s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/srv/SetJointPosition_Request.msg
+[1.509s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/srv/SetJointPosition_Response.msg
+[1.509s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/srv/SetMotorAngle.srv
+[1.512s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/srv/SetMotorAngle_Request.msg
+[1.512s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/srv/SetMotorAngle_Response.msg
+[1.512s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/msg/MotorAngle.msg
+[1.512s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/ament_index/resource_index/package_run_dependencies/dog_joint_interfaces
+[1.512s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/ament_index/resource_index/parent_prefix_path/dog_joint_interfaces
+[1.512s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/environment/ament_prefix_path.sh
+[1.512s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/environment/ament_prefix_path.dsv
+[1.512s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/environment/path.sh
+[1.513s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/environment/path.dsv
+[1.513s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/local_setup.bash
+[1.513s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/local_setup.sh
+[1.513s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/local_setup.zsh
+[1.513s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/local_setup.dsv
+[1.513s] -- Installing: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/package.dsv
+[1.513s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/ament_index/resource_index/packages/dog_joint_interfaces
+[1.513s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/export_dog_joint_interfaces__rosidl_generator_cExport.cmake
+[1.513s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/export_dog_joint_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.513s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/export_dog_joint_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.514s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/export_dog_joint_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.514s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/export_dog_joint_interfaces__rosidl_generator_cppExport.cmake
+[1.514s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/export_dog_joint_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.514s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/export_dog_joint_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.514s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/dog_joint_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.514s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/dog_joint_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.514s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/dog_joint_interfaces__rosidl_typesupport_cExport.cmake
+[1.514s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/dog_joint_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.514s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/dog_joint_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.514s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/dog_joint_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.514s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/dog_joint_interfaces__rosidl_typesupport_cppExport.cmake
+[1.514s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/dog_joint_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.515s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/export_dog_joint_interfaces__rosidl_generator_pyExport.cmake
+[1.515s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/export_dog_joint_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.515s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.515s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.515s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.515s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.515s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.515s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.515s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.515s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/dog_joint_interfacesConfig.cmake
+[1.516s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/cmake/dog_joint_interfacesConfig-version.cmake
+[1.516s] -- Up-to-date: /home/yahboom/Desktop/dogzillaS2/ros_ws/install/dog_joint_interfaces/share/dog_joint_interfaces/package.xml
+[1.519s] Invoked command in '/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/Desktop/dogzillaS2/ros_ws/install/webcam:/home/yahboom/Desktop/dogzillaS2/ros_ws/install/dogzilla_joints:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces

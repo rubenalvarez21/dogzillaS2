@@ -1,6 +1,8 @@
 {
   "package_name": "dog_joint_interfaces",
   "non_idl_tuples": [
-    "/home/yahboom/Desktop/dogzillaS2/ros_ws/src/dog_joint_interfaces:srv/SetJointPosition.srv"
+    "/home/yahboom/Desktop/dogzillaS2/ros_ws/src/dog_joint_interfaces:srv/SetJointPosition.srv",
+    "/home/yahboom/Desktop/dogzillaS2/ros_ws/src/dog_joint_interfaces:srv/SetMotorAngle.srv",
+    "/home/yahboom/Desktop/dogzillaS2/ros_ws/src/dog_joint_interfaces:msg/MotorAngle.msg"
   ]
 }

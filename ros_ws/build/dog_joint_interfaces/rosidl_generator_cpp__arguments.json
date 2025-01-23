@@ -3,7 +3,9 @@
   "output_dir": "/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_generator_cpp/dog_joint_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_adapter/dog_joint_interfaces:srv/SetJointPosition.idl"
+    "/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_adapter/dog_joint_interfaces:srv/SetJointPosition.idl",
+    "/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_adapter/dog_joint_interfaces:srv/SetMotorAngle.idl",
+    "/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_adapter/dog_joint_interfaces:msg/MotorAngle.idl"
   ],
   "ros_interface_dependencies": [
     "sensor_msgs:/opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl",
@@ -113,6 +115,8 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
     "/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_adapter/dog_joint_interfaces/srv/SetJointPosition.idl",
+    "/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_adapter/dog_joint_interfaces/srv/SetMotorAngle.idl",
+    "/home/yahboom/Desktop/dogzillaS2/ros_ws/build/dog_joint_interfaces/rosidl_adapter/dog_joint_interfaces/msg/MotorAngle.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl",
